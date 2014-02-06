@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Apache2-ScoreboardDumper.t
+lib/Apache2/ScoreboardDumper.pm

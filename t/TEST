@@ -1,0 +1,18 @@
+#!/Users/fredmoyer/perl5/perlbrew/perls/perl-5.14.3/bin/perl
+# WARNING: this file is generated, do not edit
+# generated on Thu Feb  6 15:56:01 2014
+# 01: /Users/fredmoyer/perl5/perlbrew/perls/perl-5.14.3/lib/site_perl/5.14.3/darwin-thread-multi-2level/Apache/TestConfig.pm:961
+# 02: /Users/fredmoyer/perl5/perlbrew/perls/perl-5.14.3/lib/site_perl/5.14.3/darwin-thread-multi-2level/Apache/TestConfig.pm:1051
+# 03: /Users/fredmoyer/perl5/perlbrew/perls/perl-5.14.3/lib/site_perl/5.14.3/darwin-thread-multi-2level/Apache/TestRun.pm:1116
+# 04: Makefile.PL:12
+
+BEGIN { eval { require blib && blib->import; } }
+
+use strict;
+use warnings FATAL => 'all';
+
+use lib qw(
+);
+
+
+use Apache::TestRunPerl ();Apache::TestRunPerl->new->run(@ARGV);
